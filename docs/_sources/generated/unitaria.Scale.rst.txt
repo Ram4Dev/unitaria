@@ -1,8 +1,0 @@
-unitaria.Scale
-==============
-
-.. currentmodule:: unitaria
-
-
-.. autoclass:: Scale
-   :show-inheritance:

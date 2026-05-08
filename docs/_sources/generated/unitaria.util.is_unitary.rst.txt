@@ -1,6 +1,0 @@
-unitaria.util.is\_unitary
-=========================
-
-.. currentmodule:: unitaria.util
-
-.. autofunction:: is_unitary

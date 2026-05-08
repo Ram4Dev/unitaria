@@ -1,8 +1,0 @@
-unitaria.Increment
-==================
-
-.. currentmodule:: unitaria
-
-
-.. autoclass:: Increment
-   :show-inheritance:

@@ -1,6 +1,0 @@
-unitaria.util.is\_ipython
-=========================
-
-.. currentmodule:: unitaria.util
-
-.. autofunction:: is_ipython

@@ -1,8 +1,0 @@
-unitaria.ConstantIntegerAddition
-================================
-
-.. currentmodule:: unitaria
-
-
-.. autoclass:: ConstantIntegerAddition
-   :show-inheritance:

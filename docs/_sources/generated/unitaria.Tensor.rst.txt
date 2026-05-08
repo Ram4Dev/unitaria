@@ -1,8 +1,0 @@
-unitaria.Tensor
-===============
-
-.. currentmodule:: unitaria
-
-
-.. autoclass:: Tensor
-   :show-inheritance:

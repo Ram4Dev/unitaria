@@ -1,8 +1,0 @@
-unitaria.ComponentwiseMul
-=========================
-
-.. currentmodule:: unitaria
-
-
-.. autoclass:: ComponentwiseMul
-   :show-inheritance:

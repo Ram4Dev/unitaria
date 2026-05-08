@@ -1,8 +1,0 @@
-unitaria.BlockDiagonal
-======================
-
-.. currentmodule:: unitaria
-
-
-.. autoclass:: BlockDiagonal
-   :show-inheritance:

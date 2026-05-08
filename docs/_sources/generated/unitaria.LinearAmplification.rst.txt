@@ -1,8 +1,0 @@
-unitaria.LinearAmplification
-============================
-
-.. currentmodule:: unitaria
-
-
-.. autoclass:: LinearAmplification
-   :show-inheritance:
