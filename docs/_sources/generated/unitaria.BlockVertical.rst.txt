@@ -1,0 +1,8 @@
+unitaria.BlockVertical
+======================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: BlockVertical
+   :show-inheritance:

@@ -1,0 +1,8 @@
+unitaria.Identity
+=================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: Identity
+   :show-inheritance:

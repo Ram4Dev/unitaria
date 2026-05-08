@@ -1,0 +1,6 @@
+unitaria.util.poly\_sup\_norm
+=============================
+
+.. currentmodule:: unitaria.util
+
+.. autofunction:: poly_sup_norm

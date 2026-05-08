@@ -1,0 +1,8 @@
+unitaria.Add
+============
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: Add
+   :show-inheritance:

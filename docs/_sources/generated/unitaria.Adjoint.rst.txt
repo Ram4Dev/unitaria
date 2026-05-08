@@ -1,0 +1,8 @@
+unitaria.Adjoint
+================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: Adjoint
+   :show-inheritance:

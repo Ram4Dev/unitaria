@@ -1,0 +1,12 @@
+unitaria.SubspaceFactor
+=======================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: SubspaceFactor
+   :show-inheritance:
+   :members:
+   :inherited-members:
+   :undoc-members:
+   :member-order: groupwise

@@ -1,0 +1,8 @@
+unitaria.Mul
+============
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: Mul
+   :show-inheritance:

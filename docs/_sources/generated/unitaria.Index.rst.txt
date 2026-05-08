@@ -1,0 +1,8 @@
+unitaria.Index
+==============
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: Index
+   :show-inheritance:

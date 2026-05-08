@@ -1,0 +1,8 @@
+unitaria.Pseudoinverse
+======================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: Pseudoinverse
+   :show-inheritance:

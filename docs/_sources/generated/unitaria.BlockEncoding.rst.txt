@@ -1,0 +1,8 @@
+unitaria.BlockEncoding
+======================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: BlockEncoding
+   :show-inheritance:

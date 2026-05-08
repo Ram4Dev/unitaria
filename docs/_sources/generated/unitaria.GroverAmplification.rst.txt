@@ -1,0 +1,8 @@
+unitaria.GroverAmplification
+============================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: GroverAmplification
+   :show-inheritance:

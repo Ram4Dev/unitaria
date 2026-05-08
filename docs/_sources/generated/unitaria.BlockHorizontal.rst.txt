@@ -1,0 +1,8 @@
+unitaria.BlockHorizontal
+========================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: BlockHorizontal
+   :show-inheritance:

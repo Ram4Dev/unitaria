@@ -1,0 +1,8 @@
+unitaria.ConstantIntegerMultiplication
+======================================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: ConstantIntegerMultiplication
+   :show-inheritance:

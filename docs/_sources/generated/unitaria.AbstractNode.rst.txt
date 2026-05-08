@@ -1,0 +1,8 @@
+unitaria.AbstractNode
+=====================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: AbstractNode
+   :show-inheritance:

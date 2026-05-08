@@ -1,0 +1,8 @@
+unitaria.FixedPointAmplification
+================================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: FixedPointAmplification
+   :show-inheritance:

@@ -1,0 +1,12 @@
+unitaria.QSVTCoefficients
+=========================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: QSVTCoefficients
+   :show-inheritance:
+   :members:
+   :inherited-members:
+   :undoc-members:
+   :member-order: groupwise

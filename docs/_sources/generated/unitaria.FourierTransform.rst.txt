@@ -1,0 +1,8 @@
+unitaria.FourierTransform
+=========================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: FourierTransform
+   :show-inheritance:

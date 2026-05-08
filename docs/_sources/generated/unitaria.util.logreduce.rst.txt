@@ -1,0 +1,6 @@
+unitaria.util.logreduce
+=======================
+
+.. currentmodule:: unitaria.util
+
+.. autofunction:: logreduce

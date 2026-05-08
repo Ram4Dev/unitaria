@@ -1,0 +1,8 @@
+unitaria.IntegerAddition
+========================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: IntegerAddition
+   :show-inheritance:

@@ -1,0 +1,8 @@
+unitaria.ConstantVector
+=======================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: ConstantVector
+   :show-inheritance:

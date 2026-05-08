@@ -1,0 +1,8 @@
+unitaria.ConstantMatrix
+=======================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: ConstantMatrix
+   :show-inheritance:

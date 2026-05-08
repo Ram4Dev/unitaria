@@ -1,0 +1,8 @@
+unitaria.PermuteFactors
+=======================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: PermuteFactors
+   :show-inheritance:

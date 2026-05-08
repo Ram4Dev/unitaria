@@ -1,0 +1,114 @@
+﻿unitaria
+========
+
+.. rubric:: Description
+
+.. automodule:: unitaria
+
+.. currentmodule:: unitaria
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   util
+
+
+
+.. rubric:: Classes
+
+.. autosummary::
+    :toctree: .
+    
+    Node
+    
+    Subspace
+    
+    Circuit
+    
+    AbstractNode
+    
+    Add
+    
+    Adjoint
+    
+    BlockDiagonal
+    
+    BlockEncoding
+    
+    BlockHorizontal
+    
+    BlockVertical
+    
+    Classical
+    
+    ComponentwiseMul
+    
+    ConstantIntegerAddition
+    
+    ConstantIntegerMultiplication
+    
+    ConstantMatrix
+    
+    ConstantUnitary
+    
+    ConstantVector
+    
+    FixedPointAmplification
+    
+    FourierTransform
+    
+    GroverAmplification
+    
+    Identity
+    
+    Increment
+    
+    Index
+    
+    IntegerAddition
+    
+    LinearAmplification
+    
+    Mul
+    
+    MultilinearNode
+    
+    PermuteFactors
+    
+    Projection
+    
+    ProxyNode
+    
+    Pseudoinverse
+    
+    QSVT
+    
+    QSVTCoefficients
+    
+    Scale
+    
+    Tensor
+    
+    SubspaceFactor
+    
+    ControlledSubspace
+    
+    ZeroQubitSubspace
+    
+
+
+
+
+.. rubric:: Functions
+
+.. autosummary::
+    :toctree: .
+    
+    verify
+    
+
+
+
+

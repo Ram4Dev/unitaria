@@ -1,0 +1,12 @@
+unitaria.util.cached\_property
+==============================
+
+.. currentmodule:: unitaria.util
+
+
+.. autoclass:: cached_property
+   :show-inheritance:
+   :members:
+   :inherited-members:
+   :undoc-members:
+   :member-order: groupwise

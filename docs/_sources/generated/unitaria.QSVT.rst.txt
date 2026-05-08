@@ -1,0 +1,8 @@
+unitaria.QSVT
+=============
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: QSVT
+   :show-inheritance:

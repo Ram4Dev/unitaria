@@ -1,0 +1,8 @@
+unitaria.Projection
+===================
+
+.. currentmodule:: unitaria
+
+
+.. autoclass:: Projection
+   :show-inheritance:

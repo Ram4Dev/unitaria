@@ -1,0 +1,38 @@
+unitaria.util
+=============
+
+.. rubric:: Description
+
+.. automodule:: unitaria.util
+
+.. currentmodule:: unitaria.util
+
+
+.. rubric:: Classes
+
+.. autosummary::
+    :toctree: .
+    
+    cached_property
+    
+
+
+
+
+.. rubric:: Functions
+
+.. autosummary::
+    :toctree: .
+    
+    is_ipython
+    
+    is_unitary
+    
+    logreduce
+    
+    poly_sup_norm
+    
+
+
+
+
