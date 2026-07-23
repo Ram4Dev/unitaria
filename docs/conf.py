@@ -76,6 +76,11 @@ html_static_path = ["_static"]
 html_css_files = [
     "css/imgmath_furo.css",
 ]
+html_theme_options = {
+    "source_repository": "https://github.com/tequilahub/unitaria",
+    "source_branch": "main",
+    "source_directory": "docs/",
+}
 html_sidebars = {
     "**": [
         "sidebar/scroll-start.html",
