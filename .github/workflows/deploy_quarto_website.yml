@@ -45,7 +45,19 @@ jobs:
       - name: Build Sphinx documentation
         run: |
           uv sync --group docs
-          uv run make -C docs html
+          # Build current git version
+          DOCS_VERSION=git uv run make -C docs html
+          
+          # Build tagged versions
+          CURRENT_COMMIT=$(git rev-parse HEAD)
+          for tag in $(git tag --sort=-v:refname); do
+            if [ "$tag" != "v0.0.0" ]; then
+              git checkout --quiet tags/$tag
+              uv sync --group docs
+              DOCS_VERSION=$tag uv run make -C docs html
+            fi
+          done
+          git checkout --quiet $CURRENT_COMMIT
 
       - name: Build Quarto site
         run: |
