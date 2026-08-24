@@ -87,18 +87,10 @@ html_sidebars = {
     ]
 }
 
-resolved_versions = [("git", latest_git_commit)]
-for tag in tags:
-    try:
-        commit_hash = subprocess.check_output(["git", "rev-parse", "--short", tag]).decode("utf-8").strip()
-        resolved_versions.append((tag, f"git-{commit_hash}"))
-    except Exception:
-        resolved_versions.append((tag, ""))
-
 html_context = {
     "current_version": version,
     "latest_git_commit": latest_git_commit,
-    "versions": resolved_versions,
+    "versions": ["git"] + tags,
 }
 
 # -- Options for todo extension ----------------------------------------------
