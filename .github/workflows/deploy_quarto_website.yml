@@ -68,6 +68,7 @@ jobs:
         run: |
           mkdir -p _site/docs
           cp -r docs/_build/html/* _site/docs/
+          echo '<!DOCTYPE html><meta http-equiv="refresh" content="0; url=git/index.html"><script>window.location.replace("git/index.html")</script><title>Redirecting...</title><a href="git/index.html">Click here if you are not redirected.</a>' > _site/docs/index.html
           
       - name: List workspace and _site contents
         run: |
