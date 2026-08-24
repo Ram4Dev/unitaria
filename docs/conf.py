@@ -89,6 +89,7 @@ html_sidebars = {
 
 html_context = {
     "current_version": version,
+    "latest_git_commit": latest_git_commit,
     "versions": ["git"] + tags,
 }
 
