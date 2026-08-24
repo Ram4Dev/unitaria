@@ -46,7 +46,8 @@ jobs:
         run: |
           uv sync --group docs
           # Build current git version
-          DOCS_VERSION=git uv run sphinx-build -b html docs docs/_build/html/git
+          LATEST_GIT_COMMIT=git-$(git rev-parse --short HEAD)
+          LATEST_GIT_COMMIT=$LATEST_GIT_COMMIT DOCS_VERSION=git uv run sphinx-build -b html docs docs/_build/html/git
           
           # Build tagged versions
           CURRENT_COMMIT=$(git rev-parse HEAD)
@@ -56,7 +57,7 @@ jobs:
               git checkout --quiet tags/$tag
               git checkout $CURRENT_COMMIT -- docs/conf.py docs/_templates/
               uv sync --group docs
-              DOCS_VERSION=$tag uv run sphinx-build -b html docs docs/_build/html/$tag
+              LATEST_GIT_COMMIT=$LATEST_GIT_COMMIT DOCS_VERSION=$tag uv run sphinx-build -b html docs docs/_build/html/$tag
             fi
           done
           rm -f uv.lock
