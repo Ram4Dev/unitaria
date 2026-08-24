@@ -46,7 +46,7 @@ jobs:
         run: |
           uv sync --group docs
           # Build current git version
-          DOCS_VERSION=git uv run make -C docs html
+          DOCS_VERSION=git uv run sphinx-build -b html docs docs/_build/html/git
           
           # Build tagged versions
           CURRENT_COMMIT=$(git rev-parse HEAD)
@@ -55,7 +55,7 @@ jobs:
               rm -f uv.lock
               git checkout --quiet tags/$tag
               uv sync --group docs
-              DOCS_VERSION=$tag uv run make -C docs html
+              DOCS_VERSION=$tag uv run sphinx-build -b html docs docs/_build/html/$tag
             fi
           done
           rm -f uv.lock
