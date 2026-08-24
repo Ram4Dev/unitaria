@@ -54,6 +54,7 @@ jobs:
             if [ "$tag" != "v0.0.0" ]; then
               rm -f uv.lock
               git checkout --quiet tags/$tag
+              git checkout $CURRENT_COMMIT -- docs/conf.py docs/_templates/
               uv sync --group docs
               DOCS_VERSION=$tag uv run sphinx-build -b html docs docs/_build/html/$tag
             fi
