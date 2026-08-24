@@ -52,11 +52,13 @@ jobs:
           CURRENT_COMMIT=$(git rev-parse HEAD)
           for tag in $(git tag --sort=-v:refname); do
             if [ "$tag" != "v0.0.0" ]; then
+              git checkout -- uv.lock
               git checkout --quiet tags/$tag
               uv sync --group docs
               DOCS_VERSION=$tag uv run make -C docs html
             fi
           done
+          git checkout -- uv.lock
           git checkout --quiet $CURRENT_COMMIT
 
       - name: Build Quarto site
